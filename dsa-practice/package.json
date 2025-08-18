@@ -1,0 +1,26 @@
+{
+  "name": "dsa-practice",
+  "version": "1.0.0",
+  "description": "Comprehensive TypeScript implementation of data structures and algorithms for computer science study and interview preparation",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["data-structures", "algorithms", "typescript", "computer-science", "interview-preparation", "dsa", "practice", "coding"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
