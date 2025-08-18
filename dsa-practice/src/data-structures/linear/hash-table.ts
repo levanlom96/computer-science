@@ -14,6 +14,16 @@
  * Space Complexity: O(n)
  */
 
+
+// Crutial things to know:
+// Clustering: When two keys hash to the same index, they are said to be clustered.
+// Collision: When two keys hash to the same index, they are said to be collided.
+// Load Factor: The ratio of the number of elements to the number of buckets.
+// Resizing: When the load factor is greater than the load factor threshold, the hash table is resized.
+// Rehashing: When the hash table is resized, all the elements are rehashed and redistributed into the new buckets.
+// Hash Function: A function that converts a key into an index.
+// Hash Table: A data structure that stores key-value pairs and uses a hash function to compute the index of the key.
+
 interface KeyValuePair<K, V> {
   key: K;
   value: V;
